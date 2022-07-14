@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Maksim Arkhipov"/>
+  <meta name="description" content="Описание"/>
+  <meta name="keywords" content="Ключевые слова"/>
+  <meta name="robots" content="index,follow"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<nav class="header__navbar">
+						<div class="hamb">
+							<div class="hamb__field" id="hamb">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span>
+							</div>
+						</div>
+						<a href="index.html" class="header__logo logo">
+							AMVO
+						</a>
+						<ul class="header__menu" id="menu">
+							<li class="menu__item"><a href="#photographer" class="menu__link">Принципы работы</a></li>
+							<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+							<li class="menu__item"><a href="price.html" class="menu__link">Прайс</a></li>
+							<li class="menu__item"><a href="sign.html" class="menu__link">Записаться на съемку</a></li>
+							<li class="menu__item"><a href="fears.html" class="menu__link">Страхи</a></li>
+							<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="popup" id="popup"></div>
+				</div>
+			</header>
+
+			<main class="main">
+	<section class="startpage">
+		<div class="startpage__container">
+			<h1 class="startpage__title title">
+				алиса макарова
+			</h1>
+			<p class="startpage__subtitle">
+				Все прекрасное в этом мире недолговечно...кроме фотографий! 
+			</p>
+			<a href="sign.html" class="startpage__btn">Записаться на съемку</a>
+			<ul class="social-block">
+				<li class="social__item"><a href="#" class="social__link wa">Whatsapp</a></li>
+				<li class="social__item"><a href="#" class="social__link insta">Instagram</a></li>
+				<li class="social__item"><a href="#" class="social__link tg">Telegram</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="aboutme">
+		<div class="aboutme__container">
+			<div class="aboutme__mainimg"></div>
+			<div class="aboutme__content">
+				<div class="aboutme__text">
+					<h1 class="aboutme__title title">Обо мне</h1>
+					<div class="aboutme__subtitle">
+						<p>Я - фотограф с большим опытом. Мое призвание ловить счастливые моменты и оставлять их в памяти людей, чтобы в любой момент они могли вернуться в прошлое.</p>
+						<span >Это то, чем я живу и то, что заставляет меня просыпаться каждый день...</span>
+					</div>
+				</div>
+				<div class="aboutme__img">
+					<img class="circle" src="images/circle.svg" alt="circle">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="photographer">
+		<div class="photographer__container">
+			<div class="photographer__movie">
+				<span>photograph photograph photograph photograph</span>
+			</div>
+			<div class="photographer__content-block">
+				<h1 class="photographer__title title" id="photographer">принципы
+					моей работы</h1>
+				<img src="images/grass.jpg" alt="grass" class="photographer__img">
+			</div>
+			<div class="photographer__info-block">
+				<div class="info__item">
+					<p class="info__title">Короткий срок</p>
+					<p class="info__text">Мы доставим ваши фотографии в течение четырех-шести недель. Также включен предварительный просмотр в течение одной недели.</p>
+				</div>
+				<div class="info__item">
+					<p class="info__title">Предоплата</p>
+					<p class="info__text">Предоплата составляет 35% от общей суммы.</p>
+				</div>
+				<div class="info__item">
+					<p class="info__title">Время работы</p>
+					<p class="info__text"> Нет ограничения по времени, вы сами устанавливаете временные рамки.</p>
+				</div>
+				<div class="info__item">
+					<p class="info__title">Студия</p>
+					<p class="info__text">Аренда съёмочной площадки, если она подразумевается, оплачивается дополнительно.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="myworks">
+		<div class="myworks__container">
+			<h1 class="myworks__title title">мои работы</h1>
+			<ol class="tab-list">
+				<li class="tab-item is-active">Свадебные</li>
+				<li class="tab-item">семейные</li>
+				<li class="tab-item">пары</li>
+				<li class="tab-item">портреты</li>
+			</ol>
+			<ul class="content-list">
+				<li class="content-item is-active">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div data-hash="slide-1" class="swiper-slide"><img src="images/wedding1.jpg" alt=""></div>
+						<div data-hash="slide-2" class="swiper-slide"><img src="images/wedding2.jpg" alt=""></div>
+						<div data-hash="slide-3" class="swiper-slide"><img src="images/wedding3.jpg" alt=""></div>
+						<div data-hash="slide-4" class="swiper-slide"><img src="images/wedding4.jpg" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+				</li>
+				<li class="content-item">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div data-hash="slide-1" class="swiper-slide"><img src="images/wedding4.jpg" alt=""></div>
+						<div data-hash="slide-2" class="swiper-slide"><img src="images/wedding3.jpg" alt=""></div>
+						<div data-hash="slide-3" class="swiper-slide"><img src="images/wedding2.jpg" alt=""></div>
+						<div data-hash="slide-4" class="swiper-slide"><img src="images/wedding1.jpg" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+				</li>
+				<li class="content-item">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div data-hash="slide-1" class="swiper-slide"><img src="images/wedding1.jpg" alt=""></div>
+						<div data-hash="slide-2" class="swiper-slide"><img src="images/wedding2.jpg" alt=""></div>
+						<div data-hash="slide-3" class="swiper-slide"><img src="images/wedding3.jpg" alt=""></div>
+						<div data-hash="slide-4" class="swiper-slide"><img src="images/wedding4.jpg" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+				</li>
+				<li class="content-item">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div data-hash="slide-1" class="swiper-slide"><img src="images/wedding4.jpg" alt=""></div>
+						<div data-hash="slide-2" class="swiper-slide"><img src="images/wedding3.jpg" alt=""></div>
+						<div data-hash="slide-3" class="swiper-slide"><img src="images/wedding2.jpg" alt=""></div>
+						<div data-hash="slide-4" class="swiper-slide"><img src="images/wedding1.jpg" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+				</li>
+			</ul>
+			<div class="myworks__movie">
+				<span>что то скажем очень красивое и вразумительное статической строкой</span>
+			</div>
+		</div>
+	</section>
+	<section class="price">
+		<div class="price__container">
+			<h1 class="price__title title">Прайс</h1>
+			<div class="price__block">
+				<div class="first__item">
+					<span class="item__title">Свадебные 
+						фотографии</span>
+					<ul class="text__list">
+						<li class="text__item">стиль Весёлый или Незаметный фотограф, на ваш выбор</li>
+						<li class="text__item">полезный опыт удобного планирования свадебного дня</li>
+						<li class="text__item">огромный навык в выборе лучших мест съёмки в любой сезон и погоду </li>
+						<li class="text__item">суперспособность раскрепостить на съёмке самых скованных и поймать самых неуловимых</li>
+					</ul>
+					<span class="price__price">4000 р/час</span>
+				</div>
+				<div class="twice__item">
+					<span class="item__title twice-item__title">Портреты</span>
+					<ul class="text__list">
+						<li class="text__item">фотосессия для одного человека</li>
+						<li class="text__item">помощь в выборе съёмочной площадки</li>
+						<li class="text__item">консультация по вопросам подготовки к фотосъёмке и в её процессе</li>
+						<li class="text__item"> в итоге, не менее 30 фото – снятых, отобранных и полностью подготовленных в авторской манере, в электронном виде</li>
+					</ul>
+					<span class="price__price">4000 р/час</span>
+				</div>
+				<div class="three__item">
+					<span class="item__title three-item__title">cемейные 
+						и для пар</span>
+					<ul class="text__list">
+						<li class="text__item">фотосессия для одной семьи</li>
+						<li class="text__item">помощь в выборе съёмочной площадки</li>
+						<li class="text__item">консультация по вопросам подготовки к фотосъёмке и в её процессе</li>
+						<li class="text__item">в итоге, не менее 30 фото – снятых, отобранных и полностью подготовленных в авторской манере, в электронном виде</li>
+					</ul>
+					<span class="price__price">4000 р/час</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form">
+		<div class="form__container">
+			<div class="form__form">
+				<h1 class="form__title">Оставить заявку</h1>
+				<p class="form__subtitle">Укажите ваши контактные данные. Фамилию, имя, а также способы свзяи с Вами (номер телефона или почту).</p>
+				<div class="form__input">
+					<input placeholder="Имя" type="text" name="name">
+					<br>
+					<input placeholder="Телефон или почта" type="text" name="name">
+					<br>
+					<input placeholder="Формат съемки, пожелания" type="text" name="name">
+				</div>
+				<a href="#" class="form__btn">Оставить заявку</a>
+				<p class="data__text">Оставляя свои данные, Вы даете согласие на обработку ваших персональных данных в условиях <a class="privacy" href="#">Политики конфиденциальности</a></p>
+			</div>
+		</div>
+	</section>
+	<section class="more">
+		<div class="more__container-fluid">
+			<h1 class="more__title title">Больше фото
+				в моем инстаграм</h1>
+			<a href="#" class="more__inst">@instagram. inst</a>
+			<div class="more__block-list">
+				<img src="images/photo1.jpg" alt="photo1" class="block__item">
+				<img src="images/photo2.jpg" alt="photo2" class="block__item">
+				<img src="images/photo3.jpg" alt="photo3" class="block__item">
+				<img src="images/photo4.jpg" alt="photo4" class="block__item">
+				<img src="images/photo5.jpg" alt="photo5" class="block__item">
+				<img src="images/photo6.jpg" alt="photo6" class="block__item">
+				<img src="images/photo7.jpg" alt="photo7" class="block__item">
+				<img src="images/photo8.jpg" alt="photo8" class="block__item">
+			</div>
+		</div>
+	</section>
+		</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<h4 class="footer__title">Для консультации и записи на фотосъёмку, просто выберите привычный вам способ общения.</h4>
+					<a class="footer__tel" href="tel:+89999999999">8 999 999 99 99</a>
+					<h5 class="footer__subtitle">На другие профильные вопросы я тоже с радостью отвечаю.</h5>
+					<ul class="footer__social-block social-block">
+						<li class="footer-social__item"><a href="#" class="footer-social__link wa">Whatsapp</a></li>
+						<li class="footer-social__item"><a href="#" class="footer-social__link insta">Instagram</a></li>
+						<li class="footer-social__item"><a href="#" class="footer-social__link tg">Telegram</a></li>
+					</ul>
+					<div class="footer__border"></div>
+					<div class="footer__privacy-block">
+						<ul class="footer__list">
+							<li class="item__list"><a class="footer__dev" href="#">Сайт разработан Alty</a></li>
+							<li class="item__list"><a class="footer__privacy" href="#">Политика конфиденциальности</a></li>
+							<li class="item__list"><a class="footer__privacy" href="admin.html">Для администратора</a></li>
+							<li class="item__list"><a class="footer__conditions" href="#">Условия использования</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
